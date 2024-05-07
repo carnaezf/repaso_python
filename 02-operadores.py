@@ -27,7 +27,7 @@ print(2 ** 3 + 3 - 7 / 1)  # Imprime 6.0
 print("Hola " + "Python " + "¿Como estas?")  # Imprime "Hola Python ¿Como estas?"
 
 # Función len() para obtener la longitud de una cadena
-print(len("123456"))  # Imprime 6
+print(len("aaaaaa"))  # Imprime 6
 
 # Operaciones mixtas con cadenas de texto
 
@@ -56,5 +56,5 @@ print(3 == 4)  # Imprime False
 print(3 != 4)  # Imprime True
 
 # Operaciones con cadenas de texto en comparaciones
-print("Programando" > "Python")  # Imprime True (comparación lexicográfica)
+print("Programando" > "Python")  # Imprime True (comparación lexicográfica) ACSII
 print("aaaa" >= "abaa")  # Imprime False (comparación lexicográfica)

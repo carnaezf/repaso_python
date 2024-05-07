@@ -1,0 +1,43 @@
+Algoritmo CAMBIAR_LAMPARA
+
+INICIO
+	//El problema inicial es que la lampara no funciona
+	ESCRIBIR "La lampara no funciona."
+
+	//Primero, verificar si esta enchufada
+	PREGUNTAR ¿Esta enchufada la lampara? (si/no)
+
+	SI la respuesta es NO ENTONCES
+	ESCRIBIR "Enchufar la lampara."
+
+	FIN SI
+
+	//Si la lampara esta enchufada, verificamos si el foco esta quemado
+	PREGUNTAR  ¿El foco esta quemado? (si/no)
+
+	SI la respuesta ENTONCES
+	ESCRIBIR "Reemplazar el foco"
+
+	SINO
+		ESCRIBIR "Comprar lampara nueva"
+		Fin SI
+
+	ESCRIBIR "fin del proceso"
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+FIN
+FinAlgoritmo

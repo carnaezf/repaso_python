@@ -17,10 +17,10 @@ Se puede elegir uno de los dos estilos por consistencia en el código.
 numero = 5
 
 # Imprimir el tipo de datos de diferentes valores
-print(type("Soy un dato str"))  # Muestra <class 'str'>, indica que es una cadena de texto (string)
+print(type("1"))  # Muestra <class 'str'>, indica que es una cadena de texto (string)
 print(type(numero))             # Muestra <class 'int'>, indica que 'numero' es un entero (integer)
 print(type(1.5))                # Muestra <class 'float'>, indica que el número es de punto flotante (float)
 print(type(True))               # Muestra <class 'bool'>, indica que el valor es Booleano (bool)
 
 
-
+print()
