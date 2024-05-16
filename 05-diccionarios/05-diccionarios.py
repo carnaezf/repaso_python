@@ -126,6 +126,74 @@ print(len(mascotas))  # Imprime: 6
 nuevos_numeros = [1, 2, 3] * 4
 print(nuevos_numeros)  # Imprime: [1, 2, 3, 1, 2, 3, 1, 2, 3, 1, 2, 3]
 
+# Clase II
+# Diccionarios en Python
+
+# Los diccionarios son estructuras de datos que almacenan pares clave-valor.
+# A continuación, se muestran algunos métodos útiles para trabajar con diccionarios.
+
+# Definición de un diccionario
+computador = {
+    'notebook': 489990, 
+    'tablet': 120000, 
+    'cargador': 12400
+}
+
+# Método keys()
+# Este método devuelve una vista de todas las claves en el diccionario.
+# print(type(computador.keys()))  # Muestra el tipo de objeto devuelto por el método keys()
+claves = computador.keys()
+
+# Convertir la vista a una lista
+lista_claves = list(claves)
+print("Lista de claves:", lista_claves)  # Imprime: ['notebook', 'tablet', 'cargador']
+
+print("---------")
+
+# Método values()
+# Este método devuelve una vista de todos los valores en el diccionario.
+valores = computador.values()
+print("Valores:", valores)  # Muestra la vista de los valores
+
+# Convertir la vista a una lista
+lista_valores = list(valores)
+print("Lista de valores:", lista_valores)  # Imprime: [489990, 120000, 12400]
+
+print("---------")
+
+# Método items()
+# Este método devuelve una vista de todos los pares clave-valor en el diccionario.
+pares = computador.items()
+print("Pares clave-valor:", pares)  # Muestra la vista de los pares clave-valor
+
+# Convertir la vista a una lista
+lista_pares = list(pares)
+print("Lista de pares clave-valor:", lista_pares)  
+# Imprime: [('notebook', 489990), ('tablet', 120000), ('cargador', 12400)]
+
+# Acceder a elementos específicos en la lista de pares clave-valor
+print("Primer par:", lista_pares[0])  # Imprime: ('notebook', 489990)
+print("Segundo par:", lista_pares[1])  # Imprime: ('tablet', 120000)
+print("Tercer par:", lista_pares[2])  # Imprime: ('cargador', 12400)
+
+print("---------")
+
+# Método get()
+# Este método devuelve el valor de una clave especificada.
+# Si la clave no existe, devuelve un valor predeterminado.
+print(computador.get('iphone', "IPHONE NO ENCONTRADO"))  # Imprime: IPHONE NO ENCONTRADO
+print(computador.get('notebook', "IPHONE NO ENCONTRADO"))  # Imprime: 489990
+
+print("---------")
+
+
+
+
+
+
+
+
+
 
 
 
